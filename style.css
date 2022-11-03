@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/pexels-margerretta-548077\ copia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    margin-top: 20px;
+}
+
+.text-game {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: goldenrod;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+#player-el {
+    color: white;
+    margin-top: 20px;
+}
